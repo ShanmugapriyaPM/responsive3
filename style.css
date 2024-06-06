@@ -1,0 +1,100 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	
+	padding: 5px;
+}
+.jewellary 
+{
+	display: flex;
+   padding: 1px;
+   border: 2px solid;
+   font-size: 15px;
+   font-weight: bold;
+   color: #fff;
+   height: 40rem;
+   width: 100%;
+   padding: 25px;
+   background-image: url(slider-bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;  
+   /*background-origin: padding-box;
+   background-origin: border-box;*/
+}
+/*.jewellary2 img
+{
+   height: 80rem;
+   width: 90rem;
+   display: flex;
+}*/
+/*.icon i
+{
+   position: relative;
+   right: -75rem;
+}*/
+.jewellary1 
+{
+   font-size: 22px;
+   padding: 20%;
+   position: absolute;
+   left: -7rem;
+   padding: 250px;  
+}
+.jewellary1 p
+{
+   font-size: 15px;
+   font-weight: bold;
+   padding: 15px 10px;
+}
+/*.jewellary1 button
+{
+   font size: 19px;
+   background-color: black;
+   color: orange;
+   border: 1px solid;
+   padding: 5px;
+}*/
+.box
+{
+   height: 3rem;
+   width: 9rem;
+   font-size: 20px;
+   font-weight: bold;
+   border: 2px solid;
+   border-radius: 2px;
+   background-color: black;
+   color: lightpink;
+   text-align: center;
+   justify-content: center;
+   padding: 7px;
+
+}
+/*.icon
+{
+   border: 1px solid white;
+}*/
+@media(max-width:576px)
+{
+   
+   .jewellary 
+   {
+      display: block;
+   }
+   .jewellary1
+   {
+      display: block;
+   }
+   .jewellary 
+   {
+      display:block;
+   }
+   .icon i
+   {
+      right: -10rem;
+   }
+}
